@@ -22,9 +22,9 @@ namespace KohaREST
             this.ConnectionURL = "https://" + BaseURL + "/api/v1/";
         }
 
-        public string Delete(Resources Get, string Value)
+        public string Delete(Resources Delete, string Value)
         {
-            string URL = ConnectionURL + SupportedResources[(int)Get] + "/" + Value;
+            string URL = ConnectionURL + SupportedResources[(int)Delete] + "/" + Value;
             var client = new RestClient(URL);
             String encoded = System.Convert.ToBase64String(System.Text.Encoding.GetEncoding("ISO-8859-1").GetBytes(this.Username + ":" + this.Password));
 
