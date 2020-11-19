@@ -24,7 +24,7 @@ Koha for the rest of us.  Ba dum bum.  So far, I've only implemented the stuff I
                 }
 
                 Hold hold = new Hold(con);
-                hold.Get("hold_id", "456789");  Retrieves single instance of a hold.    
+                hold.Get("hold_id", "456789");  //  Retrieves single instance of a hold.    
                 hold.Delete();
 
                 using (Patron patron = new Patron(con)) {
