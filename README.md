@@ -42,5 +42,6 @@ Koha for the rest of us.  Ba dum bum.  So far, I've only implemented the stuff I
                     patron.Delete();
 
                 }
-}
+
+This is set up to work with BasicAuth right now.  I plan on adding oauth at some point.  
 
