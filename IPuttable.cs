@@ -1,0 +1,8 @@
+﻿
+
+namespace KohaREST
+{
+    interface IPuttable
+    {
+    }
+}
