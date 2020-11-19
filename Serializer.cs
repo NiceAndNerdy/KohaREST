@@ -10,7 +10,6 @@ namespace KohaREST
     {
         public static T Deserialize<T>(string JSON)
         {
-            JsonDeserializer deserializer = new JsonDeserializer();
             var settings = new JsonSerializerSettings
             {
                 NullValueHandling = NullValueHandling.Ignore,
@@ -21,7 +20,6 @@ namespace KohaREST
 
         public static IEnumerable<T> DeserializeIEnumerable<T>(string JSON)
         {
-            JsonDeserializer deserializer = new JsonDeserializer();
             var settings = new JsonSerializerSettings
             {
                 NullValueHandling = NullValueHandling.Ignore,
