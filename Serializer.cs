@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
 using RestSharp.Serialization.Json;
 using System.Collections.Generic;
-
 using System.Web.Script.Serialization;
 
 namespace KohaREST
